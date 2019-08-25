@@ -1,0 +1,616 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5761139900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setUp()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Verify module title",
+        "description": "",
+        "id": "navigate-module-options;verify-module-title;hr;2",
+        "after": [
+          {
+            "result": {
+              "duration": 847400200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3826975300,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I log in as \"hr\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"hr\"",
+                  "offset": 12
+                }
+              ],
+              "location": "Login_step_definition.i_log_in_as(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3438174700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I click a \"Activity Stream\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Activity Stream\"",
+                  "offset": 10
+                }
+              ],
+              "location": "Navigate_module_options.i_click_a(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 20231581600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the title should be \"Portal\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Portal\"",
+                  "offset": 20
+                }
+              ],
+              "location": "Navigate_module_options.the_title_should_be(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4819303500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setUp()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Verify module title",
+        "description": "",
+        "id": "navigate-module-options;verify-module-title;hr;3",
+        "after": [
+          {
+            "result": {
+              "duration": 870376400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3818642000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I log in as \"hr\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"hr\"",
+                  "offset": 12
+                }
+              ],
+              "location": "Login_step_definition.i_log_in_as(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1373703300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I click a \"Tasks\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Tasks\"",
+                  "offset": 10
+                }
+              ],
+              "location": "Navigate_module_options.i_click_a(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 20110581100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the title should be \"My tasks\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"My tasks\"",
+                  "offset": 20
+                }
+              ],
+              "location": "Navigate_module_options.the_title_should_be(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4808800800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setUp()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Verify module title",
+        "description": "",
+        "id": "navigate-module-options;verify-module-title;hr;4",
+        "after": [
+          {
+            "result": {
+              "duration": 865312100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3755704800,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I log in as \"hr\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"hr\"",
+                  "offset": 12
+                }
+              ],
+              "location": "Login_step_definition.i_log_in_as(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 821271100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I click a \"Chat and Calls\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Chat and Calls\"",
+                  "offset": 10
+                }
+              ],
+              "location": "Navigate_module_options.i_click_a(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 20146213300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the title should be \"Chat and Calls\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Chat and Calls\"",
+                  "offset": 20
+                }
+              ],
+              "location": "Navigate_module_options.the_title_should_be(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4925870700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setUp()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "Verify module title",
+        "description": "",
+        "id": "navigate-module-options;verify-module-title;marketing;2",
+        "after": [
+          {
+            "result": {
+              "duration": 906005100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4151710100,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I log in as \"marketing\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"marketing\"",
+                  "offset": 12
+                }
+              ],
+              "location": "Login_step_definition.i_log_in_as(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2024724000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I click a \"Activity Stream\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Activity Stream\"",
+                  "offset": 10
+                }
+              ],
+              "location": "Navigate_module_options.i_click_a(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 20174508400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the title should be \"Portal\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Portal\"",
+                  "offset": 20
+                }
+              ],
+              "location": "Navigate_module_options.the_title_should_be(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4736785000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setUp()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "Verify module title",
+        "description": "",
+        "id": "navigate-module-options;verify-module-title;marketing;3",
+        "after": [
+          {
+            "result": {
+              "duration": 809098700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4039104600,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I log in as \"marketing\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"marketing\"",
+                  "offset": 12
+                }
+              ],
+              "location": "Login_step_definition.i_log_in_as(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1022891400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I click a \"Tasks\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Tasks\"",
+                  "offset": 10
+                }
+              ],
+              "location": "Navigate_module_options.i_click_a(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[My tasks]\u003e but was:\u003c[EULA violation]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat cybertek.step_definitions.Navigate_module_options.the_title_should_be(Navigate_module_options.java:19)\r\n\tat ✽.the title should be \"My tasks\"(C:\\Users\\xayim\\Btrix24_42\\src\\test\\resources\\feature\\menue\\navigate_module_option.feature:5)\r\n",
+              "duration": 20088056400,
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "the title should be \"My tasks\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"My tasks\"",
+                  "offset": 20
+                }
+              ],
+              "location": "Navigate_module_options.the_title_should_be(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4663694200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setUp()"
+            }
+          }
+        ],
+        "line": 43,
+        "name": "Verify module title",
+        "description": "",
+        "id": "navigate-module-options;verify-module-title;help-desk;2",
+        "after": [
+          {
+            "result": {
+              "duration": 919593500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4066057700,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I log in as \"help_desk\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"help_desk\"",
+                  "offset": 12
+                }
+              ],
+              "location": "Login_step_definition.i_log_in_as(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2772140700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I click a \"Activity Stream\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Activity Stream\"",
+                  "offset": 10
+                }
+              ],
+              "location": "Navigate_module_options.i_click_a(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 20106664100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the title should be \"Portal\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Portal\"",
+                  "offset": 20
+                }
+              ],
+              "location": "Navigate_module_options.the_title_should_be(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4676969500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setUp()"
+            }
+          }
+        ],
+        "line": 44,
+        "name": "Verify module title",
+        "description": "",
+        "id": "navigate-module-options;verify-module-title;help-desk;3",
+        "after": [
+          {
+            "result": {
+              "duration": 845973300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4121440400,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I log in as \"help_desk\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"help_desk\"",
+                  "offset": 12
+                }
+              ],
+              "location": "Login_step_definition.i_log_in_as(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1646184200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I click a \"Tasks\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Tasks\"",
+                  "offset": 10
+                }
+              ],
+              "location": "Navigate_module_options.i_click_a(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 20137804900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the title should be \"My tasks\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"My tasks\"",
+                  "offset": 20
+                }
+              ],
+              "location": "Navigate_module_options.the_title_should_be(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "navigate module options",
+    "description": "",
+    "id": "navigate-module-options",
+    "keyword": "Feature",
+    "uri": "C:\\Users\\xayim\\Btrix24_42\\src\\test\\resources\\feature\\menue\\navigate_module_option.feature",
+    "tags": []
+  }
+]
